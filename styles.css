@@ -1,0 +1,244 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+   
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #f0a000;
+}
+
+/* button effect */
+.cta-button,.ctaa-button {
+    background-color: #f0a000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease; 
+}
+
+.cta-button:hover,.ctaa-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* search bar  */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: -10px;
+}
+
+.search-bar button {
+    background-color: #f0a000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* hero section */
+#hero {
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/799/285/200/video-game-collage-battlefield-1-forza-horizon-3-wallpaper-db16bcede3f16f09c5144b994d9c5c80.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+    padding: 130px 0;
+    color: #ffffff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0a000;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/*About Us section */
+#about {
+    background-color: #333030;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    padding: 10px 0;
+    border-style:double;
+    border-width: 30px;
+    border-color: #848383;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/*Games section */
+
+.ctaa-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0a000;
+    color: #fff;
+    margin:7px
+}
+
+#feature{
+   font-size: 20px;
+   text-align: center;
+   margin: 15px;
+   padding: 5px;
+}
+
+#games {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.game {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*footer section */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+
+.footer-right input[type="email"],
+.footer-right button {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f0a000;
+    border-radius: 5px;
+}
+
+.footer-right button {
+    background-color: #f0a000;
+    color: #fff;
+}
+
+.footer-right button:hover {
+    background-color: #f0c040;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #555;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f0a000;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #ffdf86;
+}
+
+.med{
+    color: #f0a000;
+}
